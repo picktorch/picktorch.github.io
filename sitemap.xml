@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://picktorch.github.io/2021/12/17/yin-han-shu-cun-zai-xing-ding-li-he-la-ge-lang-ri-cheng-shu-fa/</loc>
+    
+    <lastmod>2021-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://picktorch.github.io/2021/12/16/typora-shi-yong-jiao-cheng-ji-chu-pian-gen-sui-lian-xi-di-yi-pian-bo-wen/</loc>
     
     <lastmod>2021-12-16</lastmod>
@@ -74,6 +83,34 @@
 
   
   <url>
+    <loc>http://picktorch.github.io/tags/%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://picktorch.github.io/tags/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B9%98%E6%95%B0%E6%B3%95/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://picktorch.github.io/tags/%E6%9E%81%E5%80%BC%E6%9D%A1%E4%BB%B6/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://picktorch.github.io/tags/%E9%9A%90%E5%87%BD%E6%95%B0%E5%AD%98%E5%9C%A8%E6%80%A7%E5%AE%9A%E7%90%86/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://picktorch.github.io/tags/Typora/</loc>
     <lastmod>2021-12-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -81,6 +118,20 @@
   </url>
   
 
+  
+  <url>
+    <loc>http://picktorch.github.io/categories/%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://picktorch.github.io/categories/%E6%95%B0%E5%AD%A6/%E5%BE%AE%E7%A7%AF%E5%88%86/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>http://picktorch.github.io/categories/%E5%B7%A5%E5%85%B7/</loc>
