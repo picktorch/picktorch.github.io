@@ -9,10 +9,17 @@
     <meta name="description" content="一级标题 1个#（ctrl+1）二级标题2个#（ctrl+2）三级标题四级标题五级标题六级标题（没有七级标题了）正文你好，世界。
 
 
-代码代码块（shift+ctrl+K）除了快捷键，也可以用下面这个：（```加语言名称）
-分开复制：
 
-`">
+
+这里测试一下回车是否能带来空行
+打出5个回车
+
+
+
+
+结束
+
+这里测试一下回车是否能带来空行打出5个回">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -559,7 +566,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.4k
+                    1.5k
                 </div>
                 
 
@@ -584,6 +591,18 @@
                 <h1 id="一级标题-1个-（ctrl-1）"><a href="#一级标题-1个-（ctrl-1）" class="headerlink" title="一级标题 1个#（ctrl+1）"></a>一级标题 1个#（ctrl+1）</h1><h2 id="二级标题2个-（ctrl-2）"><a href="#二级标题2个-（ctrl-2）" class="headerlink" title="二级标题2个#（ctrl+2）"></a>二级标题2个#（ctrl+2）</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题（没有七级标题了）"><a href="#六级标题（没有七级标题了）" class="headerlink" title="六级标题（没有七级标题了）"></a>六级标题（没有七级标题了）</h6><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>你好，世界。</p>
 <span id="more"></span>
 
+
+
+<pre class="line-numbers language-markdown"><code class="language-markdown">这里测试一下回车是否能带来空行
+打出5个回车
+
+
+
+
+结束
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>这里测试一下回车是否能带来空行<br>打出5个回车</p>
+<p>结束</p>
 <h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h3 id="代码块（shift-ctrl-K）"><a href="#代码块（shift-ctrl-K）" class="headerlink" title="代码块（shift+ctrl+K）"></a>代码块（shift+ctrl+K）</h3><pre class="line-numbers language-markdown"><code class="language-markdown">除了快捷键，也可以用下面这个：（```加语言名称）
 分开复制：
 
@@ -619,31 +638,31 @@ $$
 $$
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>$$<br>\frac{\partial \boldsymbol{L}}{\partial \boldsymbol{x}}-\frac{d}{d t}\left(\frac{\partial \boldsymbol{L}}{\partial \dot{\boldsymbol{x}}}\right)=\mathbf{0}<br>$$</p>
-<h3 id="行内公式（用两个-括起来即可）"><a href="#行内公式（用两个-括起来即可）" class="headerlink" title="行内公式（用两个$括起来即可）"></a>行内公式（用两个<code>$</code>括起来即可）</h3><pre><code>欧拉公式：$\frac{\partial \boldsymbol{L}}{\partial \boldsymbol{x}}-\frac{d}{d t}\left(\frac{\partial \boldsymbol{L}}{\partial \dot{\boldsymbol{x}}}\right)=\mathbf{0}$
-</code></pre>
+<h3 id="行内公式（用两个-括起来即可）"><a href="#行内公式（用两个-括起来即可）" class="headerlink" title="行内公式（用两个$括起来即可）"></a>行内公式（用两个<code>$</code>括起来即可）</h3><pre class="line-numbers language-markdown"><code class="language-markdown">欧拉公式：$\frac{\partial \boldsymbol{L}}{\partial \boldsymbol{x}}-\frac{d}{d t}\left(\frac{\partial \boldsymbol{L}}{\partial \dot{\boldsymbol{x}}}\right)=\mathbf{0}$
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>欧拉公式：$\frac{\partial \boldsymbol{L}}{\partial \boldsymbol{x}}-\frac{d}{d t}\left(\frac{\partial \boldsymbol{L}}{\partial \dot{\boldsymbol{x}}}\right)=\mathbf{0}$</p>
 <h3 id="多行公式的对齐"><a href="#多行公式的对齐" class="headerlink" title="多行公式的对齐"></a>多行公式的对齐</h3><p>有时候公式太长，用=号对齐很难看(有的公式左边很长，右边很短)，此时难免需要进行”公式左对齐”。（需要对齐的地方用<code>&amp;</code>符号）</p>
-<pre><code>输入以下代码为左对齐：（或者用快捷键打开公式块）
+<pre class="line-numbers language-markdown"><code class="language-markdown">输入以下代码为左对齐：（或者用快捷键打开公式块）
 $$
-\begin{align*}
+\begin{align<span class="token italic"><span class="token punctuation">*</span>}
   &amp; X(0) = x(0)W_{N}^{0\cdot0} + x(1)W_{N}^{0\cdot1} + \cdots + x(N-1)W_{N}^{0\cdot(N-1)}\\
   &amp; X(1) = x(0)W_{N}^{1\cdot0} + x(1)W_{N}^{1\cdot1} + \cdots + x(N-1)W_{N}^{1\cdot(N-1)} \\
   &amp; \cdots \\
   &amp; X(N-1) = x(0)W_{N}^{(N-1)\cdot0} + x(1)W_{N}^{(N-1)\cdot1} + \cdots + x(N-1)W_{N}^{(N-1)\cdot(N-1)} \\
-\end{align*}
+\end{align<span class="token punctuation">*</span></span>}
 $$
-</code></pre>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>$$<br>\begin{align*}<br>  &amp; X(0) = x(0)W_{N}^{0\cdot0} + x(1)W_{N}^{0\cdot1} + \cdots + x(N-1)W_{N}^{0\cdot(N-1)}\<br>  &amp; X(1) = x(0)W_{N}^{1\cdot0} + x(1)W_{N}^{1\cdot1} + \cdots + x(N-1)W_{N}^{1\cdot(N-1)} \<br>  &amp; \cdots \<br>  &amp; X(N-1) = x(0)W_{N}^{(N-1)\cdot0} + x(1)W_{N}^{(N-1)\cdot1} + \cdots + x(N-1)W_{N}^{(N-1)\cdot(N-1)} \<br>\end{align*}<br>$$</p>
-<pre><code>输入以下代码为等号对齐：
+<pre class="line-numbers language-markdown"><code class="language-markdown">输入以下代码为等号对齐：
 $$
-\begin{align*}
+\begin{align<span class="token italic"><span class="token punctuation">*</span>}
    X(0) &amp;= x(0)W_{N}^{0\cdot0} + x(1)W_{N}^{0\cdot1} + \cdots + x(N-1)W_{N}^{0\cdot(N-1)}\\
    X(1) &amp;= x(0)W_{N}^{1\cdot0} + x(1)W_{N}^{1\cdot1} + \cdots + x(N-1)W_{N}^{1\cdot(N-1)} \\
   &amp; \cdots \\
    X(N-1) &amp;= x(0)W_{N}^{(N-1)\cdot0} + x(1)W_{N}^{(N-1)\cdot1} + \cdots + x(N-1)W_{N}^{(N-1)\cdot(N-1)} \\
-\end{align*}
+\end{align<span class="token punctuation">*</span></span>}
 $$
-</code></pre>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>$$<br>\begin{align*}<br>   X(0) &amp;= x(0)W_{N}^{0\cdot0} + x(1)W_{N}^{0\cdot1} + \cdots + x(N-1)W_{N}^{0\cdot(N-1)}\<br>   X(1) &amp;= x(0)W_{N}^{1\cdot0} + x(1)W_{N}^{1\cdot1} + \cdots + x(N-1)W_{N}^{1\cdot(N-1)} \<br>  &amp; \cdots \<br>   X(N-1) &amp;= x(0)W_{N}^{(N-1)\cdot0} + x(1)W_{N}^{(N-1)\cdot1} + \cdots + x(N-1)W_{N}^{(N-1)\cdot(N-1)} \<br>\end{align*}<br>$$</p>
 <h2 id="加粗：（ctrl-B）"><a href="#加粗：（ctrl-B）" class="headerlink" title="加粗：（ctrl+B）"></a>加粗：（ctrl+B）</h2><p>用两个*把想加粗的东西括起来</p>
 <pre class="line-numbers language-markdown"><code class="language-markdown"><span class="token bold"><span class="token punctuation">**</span>想加粗的文本<span class="token punctuation">**</span></span>
@@ -653,19 +672,19 @@ $$
 <pre class="line-numbers language-markdown"><code class="language-markdown">~~你想删除的东西~~
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p><del>你想删除的东西</del></p>
-<h2 id="斜体：（ctrl-I）"><a href="#斜体：（ctrl-I）" class="headerlink" title="斜体：（ctrl+I）"></a>斜体：（ctrl+I）</h2><p>可以用一个*把你想斜体的内容夹住。</p>
+<h2 id="斜体：（ctrl-I）"><a href="#斜体：（ctrl-I）" class="headerlink" title="斜体：（ctrl+I）"></a>斜体：（ctrl+I）</h2><p>可以用一个*把你想斜体的内容括住。</p>
 <pre class="line-numbers language-markdown"><code class="language-markdown"><span class="token italic"><span class="token punctuation">*</span>想要变斜体的内容<span class="token punctuation">*</span></span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p><em>想要变斜体的内容</em></p>
 <h2 id="下划线：（ctrl-U）"><a href="#下划线：（ctrl-U）" class="headerlink" title="下划线：（ctrl+U）"></a>下划线：（ctrl+U）</h2><p>可以使用html的语法（用尖括号<code>&lt;u&gt;</code>），但是我不会用，直接用快捷键。</p>
-<h2 id="高亮：（-）"><a href="#高亮：（-）" class="headerlink" title="高亮：（====）"></a>高亮：（====）</h2><p>用两个等号把内容夹住（一边两个）</p>
+<h2 id="高亮：（-）"><a href="#高亮：（-）" class="headerlink" title="高亮：（====）"></a>高亮：（====）</h2><p>用两个等号把内容括住（一边两个）</p>
 <pre class="line-numbers language-markdown"><code class="language-markdown">==高亮文本==
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>==高亮文本==</p>
-<h2 id="上标：（用-夹住）"><a href="#上标：（用-夹住）" class="headerlink" title="上标：（用^夹住）"></a>上标：（用^夹住）</h2><pre class="line-numbers language-markdown"><code class="language-markdown">e^3^
+<h2 id="上标：（用-括住）"><a href="#上标：（用-括住）" class="headerlink" title="上标：（用^括住）"></a>上标：（用^括住）</h2><pre class="line-numbers language-markdown"><code class="language-markdown">e^3^
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>e^3^</p>
-<h2 id="下标：（用-夹住）"><a href="#下标：（用-夹住）" class="headerlink" title="下标：（用~夹住）"></a>下标：（用~夹住）</h2><pre class="line-numbers language-markdown"><code class="language-markdown">H~2~O
+<h2 id="下标：（用-括住）"><a href="#下标：（用-括住）" class="headerlink" title="下标：（用~括住）"></a>下标：（用~括住）</h2><pre class="line-numbers language-markdown"><code class="language-markdown">H~2~O
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>H<del>2</del>O</p>
 <h2 id="输入表情（也支持windows）"><a href="#输入表情（也支持windows）" class="headerlink" title="输入表情（也支持windows）"></a>输入表情（也支持windows）</h2><pre class="line-numbers language-markdown"><code class="language-markdown">:smile:
@@ -1170,6 +1189,13 @@ cola|5
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+    });
+</script>
 
 
 
