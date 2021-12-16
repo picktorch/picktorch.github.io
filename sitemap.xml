@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://picktorch.github.io/friends/index.html</loc>
+    
+    <lastmod>2021-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://picktorch.github.io/contact/index.html</loc>
+    
+    <lastmod>2021-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://picktorch.github.io/about/index.html</loc>
+    
+    <lastmod>2021-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://picktorch.github.io/tags/index.html</loc>
+    
+    <lastmod>2021-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://picktorch.github.io/categories/index.html</loc>
+    
+    <lastmod>2021-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://picktorch.github.io/404/index.html</loc>
+    
+    <lastmod>2021-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://picktorch.github.io/2021/12/16/typora-shi-yong-jiao-cheng-ji-chu-pian-gen-sui-lian-xi-di-yi-pian-bo-wen/</loc>
+    
+    <lastmod>2021-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://picktorch.github.io/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://picktorch.github.io/tags/Typora/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+</urlset>
