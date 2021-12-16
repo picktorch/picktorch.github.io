@@ -559,7 +559,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    870
+                    1.4k
                 </div>
                 
 
@@ -612,6 +612,39 @@ C语言代码
 <h3 id="行内代码（ctrl-shift-）"><a href="#行内代码（ctrl-shift-）" class="headerlink" title="行内代码（ctrl+shift+`）"></a>行内代码（ctrl+shift+`）</h3><pre class="line-numbers language-markdown"><code class="language-markdown"><span class="token code keyword">`一条代码`</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p><code>一条代码</code></p>
+<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><h3 id="公式块（ctrl-shift-M）"><a href="#公式块（ctrl-shift-M）" class="headerlink" title="公式块（ctrl+shift+M）"></a>公式块（ctrl+shift+M）</h3><pre class="line-numbers language-markdown"><code class="language-markdown">或者输入如下代码：
+
+$$
+\frac{\partial \boldsymbol{L}}{\partial \boldsymbol{x}}-\frac{d}{d t}\left(\frac{\partial \boldsymbol{L}}{\partial \dot{\boldsymbol{x}}}\right)=\mathbf{0}
+$$
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>$$<br>\frac{\partial \boldsymbol{L}}{\partial \boldsymbol{x}}-\frac{d}{d t}\left(\frac{\partial \boldsymbol{L}}{\partial \dot{\boldsymbol{x}}}\right)=\mathbf{0}<br>$$</p>
+<h3 id="行内公式（用两个-括起来即可）"><a href="#行内公式（用两个-括起来即可）" class="headerlink" title="行内公式（用两个$括起来即可）"></a>行内公式（用两个<code>$</code>括起来即可）</h3><pre><code>欧拉公式：$\frac{\partial \boldsymbol{L}}{\partial \boldsymbol{x}}-\frac{d}{d t}\left(\frac{\partial \boldsymbol{L}}{\partial \dot{\boldsymbol{x}}}\right)=\mathbf{0}$
+</code></pre>
+<p>欧拉公式：$\frac{\partial \boldsymbol{L}}{\partial \boldsymbol{x}}-\frac{d}{d t}\left(\frac{\partial \boldsymbol{L}}{\partial \dot{\boldsymbol{x}}}\right)=\mathbf{0}$</p>
+<h3 id="多行公式的对齐"><a href="#多行公式的对齐" class="headerlink" title="多行公式的对齐"></a>多行公式的对齐</h3><p>有时候公式太长，用=号对齐很难看(有的公式左边很长，右边很短)，此时难免需要进行”公式左对齐”。（需要对齐的地方用<code>&amp;</code>符号）</p>
+<pre><code>输入以下代码为左对齐：（或者用快捷键打开公式块）
+$$
+\begin{align*}
+  &amp; X(0) = x(0)W_{N}^{0\cdot0} + x(1)W_{N}^{0\cdot1} + \cdots + x(N-1)W_{N}^{0\cdot(N-1)}\\
+  &amp; X(1) = x(0)W_{N}^{1\cdot0} + x(1)W_{N}^{1\cdot1} + \cdots + x(N-1)W_{N}^{1\cdot(N-1)} \\
+  &amp; \cdots \\
+  &amp; X(N-1) = x(0)W_{N}^{(N-1)\cdot0} + x(1)W_{N}^{(N-1)\cdot1} + \cdots + x(N-1)W_{N}^{(N-1)\cdot(N-1)} \\
+\end{align*}
+$$
+</code></pre>
+<p>$$<br>\begin{align*}<br>  &amp; X(0) = x(0)W_{N}^{0\cdot0} + x(1)W_{N}^{0\cdot1} + \cdots + x(N-1)W_{N}^{0\cdot(N-1)}\<br>  &amp; X(1) = x(0)W_{N}^{1\cdot0} + x(1)W_{N}^{1\cdot1} + \cdots + x(N-1)W_{N}^{1\cdot(N-1)} \<br>  &amp; \cdots \<br>  &amp; X(N-1) = x(0)W_{N}^{(N-1)\cdot0} + x(1)W_{N}^{(N-1)\cdot1} + \cdots + x(N-1)W_{N}^{(N-1)\cdot(N-1)} \<br>\end{align*}<br>$$</p>
+<pre><code>输入以下代码为等号对齐：
+$$
+\begin{align*}
+   X(0) &amp;= x(0)W_{N}^{0\cdot0} + x(1)W_{N}^{0\cdot1} + \cdots + x(N-1)W_{N}^{0\cdot(N-1)}\\
+   X(1) &amp;= x(0)W_{N}^{1\cdot0} + x(1)W_{N}^{1\cdot1} + \cdots + x(N-1)W_{N}^{1\cdot(N-1)} \\
+  &amp; \cdots \\
+   X(N-1) &amp;= x(0)W_{N}^{(N-1)\cdot0} + x(1)W_{N}^{(N-1)\cdot1} + \cdots + x(N-1)W_{N}^{(N-1)\cdot(N-1)} \\
+\end{align*}
+$$
+</code></pre>
+<p>$$<br>\begin{align*}<br>   X(0) &amp;= x(0)W_{N}^{0\cdot0} + x(1)W_{N}^{0\cdot1} + \cdots + x(N-1)W_{N}^{0\cdot(N-1)}\<br>   X(1) &amp;= x(0)W_{N}^{1\cdot0} + x(1)W_{N}^{1\cdot1} + \cdots + x(N-1)W_{N}^{1\cdot(N-1)} \<br>  &amp; \cdots \<br>   X(N-1) &amp;= x(0)W_{N}^{(N-1)\cdot0} + x(1)W_{N}^{(N-1)\cdot1} + \cdots + x(N-1)W_{N}^{(N-1)\cdot(N-1)} \<br>\end{align*}<br>$$</p>
 <h2 id="加粗：（ctrl-B）"><a href="#加粗：（ctrl-B）" class="headerlink" title="加粗：（ctrl+B）"></a>加粗：（ctrl+B）</h2><p>用两个*把想加粗的东西括起来</p>
 <pre class="line-numbers language-markdown"><code class="language-markdown"><span class="token bold"><span class="token punctuation">**</span>想加粗的文本<span class="token punctuation">**</span></span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
