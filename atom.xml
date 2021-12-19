@@ -6,7 +6,7 @@
   <link href="http://picktorch.github.io/atom.xml" rel="self"/>
   
   <link href="http://picktorch.github.io/"/>
-  <updated>2021-12-17T02:40:54.110Z</updated>
+  <updated>2021-12-19T07:18:47.850Z</updated>
   <id>http://picktorch.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>正交投影矩阵的两种推导方法</title>
+    <link href="http://picktorch.github.io/2021/12/19/zheng-jiao-tou-ying-ju-zhen-de-liang-chong-tui-dao-fang-fa/"/>
+    <id>http://picktorch.github.io/2021/12/19/zheng-jiao-tou-ying-ju-zhen-de-liang-chong-tui-dao-fang-fa/</id>
+    <published>2021-12-19T05:57:08.000Z</published>
+    <updated>2021-12-19T07:18:47.850Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;动机&quot;&gt;&lt;a href=&quot;#动机&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数学" scheme="http://picktorch.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="线性代数" scheme="http://picktorch.github.io/categories/%E6%95%B0%E5%AD%A6/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    
+    
+    <category term="数学" scheme="http://picktorch.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="线性代数" scheme="http://picktorch.github.io/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    
+    <category term="正交投影" scheme="http://picktorch.github.io/tags/%E6%AD%A3%E4%BA%A4%E6%8A%95%E5%BD%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>隐函数存在性定理与拉格朗日乘数法</title>
