@@ -605,8 +605,9 @@
 <h2 id="解矩阵代数方程法"><a href="#解矩阵代数方程法" class="headerlink" title="解矩阵代数方程法"></a>解矩阵代数方程法</h2><h3 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h3><p>首先将我们想要解决的问题用代数语言表达出来：</p>
 <p>同第一种方法一样，将 $\boldsymbol{M}$ 记为：<br>$$<br>M=\left[\begin{array}{c}<br>\alpha_{1}{ }^{T} \\<br>\vdots \\<br>\alpha_{m}{ }^{T}<br>\end{array}\right]<br>$$<br>则：<br>$$<br>\begin{aligned}<br>\forall y \in R^{n}, P y=x, \quad x \in\left\langle\alpha_{1}, \alpha_{2}, \cdots \alpha_{m}\right\rangle<br>\end{aligned}<br>$$<br>由于投影的正交性质：</p>
 <p><img src="/../images/%E6%AD%A3%E4%BA%A4%E6%8A%95%E5%BD%B1%E7%9F%A9%E9%98%B5%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%8E%A8%E5%AF%BC%E6%96%B9%E6%B3%95/b7585651d4395ef11957ecdc4445904.png"></p>
-<p>$$<br>(y-x) \perp M的行空间<br>$$<br>$\forall y \in R^{n},  \exists k \in R^{m} . \text { such that: }\left{\begin{array}{l}<br>Py=x \\<br>x=M^{\top} k<br>\end{array}\right.$</p>
-<p>所以问题可以完备地描述为：<br>$$<br>\begin{array}{l}<br>M \cdot(y-x)=0 \\<br>P y=x \\<br>x=M^{\top} \cdot k<br>\end{array}<br>$$<br>根据上述三个式子进行变换：</p>
+<p>$$<br>(y-x) \perp M的行空间<br>$$</p>
+<p>$\forall y \in R^{n},  \exists k \in R^{m} . $such that:</p>
+<p>$$<br>\begin{array}{l}<br>Py=x \\<br>x=M^{\top} k<br>\end{array}<br>$$<br>所以问题可以完备地描述为：<br>$$<br>\begin{array}{l}<br>M \cdot(y-x)=0 \\<br>P y=x \\<br>x=M^{\top} \cdot k<br>\end{array}<br>$$<br>根据上述三个式子进行变换：</p>
 <p>（第一部分叙述过  $M M^{\top}$ 为m阶可逆方阵。）<br>$$<br>\begin{gathered}<br>P y=x \\<br>P y=M^{\top} k \\<br>M P y=M M^{\top} k \\<br>\left(M M^{\top}\right)^{-1} M P y=k \\<br>M^{\top}\left(M M^{\top}\right)^{-1} M P y=M^{\top} k=x<br>\end{gathered}<br>$$<br>将$P y=x$代入最后一个式子左边：<br>$$<br>M^{\top}\left(M M^{\top}\right)^{-1} M x=x<br>$$<br>将$P y=x$代入上式子右边：<br>$$<br>M^{\top}\left(M M^{\top}\right)^{-1} M y=P{y}<br>$$<br>移项：<br>$$<br>\left(M^{\top}\left(M M^{\top}\right)^{-1} M-P\right) y=0<br>$$<br>由于 $y$ 为n维空间任意向量。取n个单位向量：$e_{1}, e_{2}, \cdots, e_{n}$ ，代入整理：<br>$$<br>\begin{gathered}<br>\left(M^{\top}\left(M M^{\top}\right)^{-1} M-P\right) \cdot I=0 \\<br>P=M^{\top}\left(M M^{\top}\right)^{-1} M<br>\end{gathered}<br>$$<br>Q.E.D.</p>
 <p><strong>总结：</strong></p>
 <p><strong>第二种方法在形式上是简洁的，但是理解上并不如第一种直观。</strong>将问题完备描述后，主要采用试凑的方式进行方程变换求解。</p>
